@@ -1,0 +1,21 @@
+{
+  "name": "nicojmb/3cx-api-websocket-client",
+  "description": "Cliente WebSocket para 3CX API",
+  "type": "project",
+  "keywords": [
+    "3CX",
+    "WebSocket",
+    "API"
+  ],
+  "version": "1.0.0",
+  "require": {
+    "ratchet/pawl": "^0.4.3",
+    "react/event-loop": "^1.5",
+    "textalk/websocket": "^1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mike3CXIntegration\\": "src/"
+    }
+  }
+}
